@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>测试angularAMD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="email=no" name="format-detection"/>
+    <script src="./skin/js/ng/AngularJS-1.4.1/js/angular.js"></script>
+    <script src="./skin/js/ng/AngularJS-1.4.1/js/angular-ui-router.min.js"></script>
+    <script src="./skin/js/ng/AngularJS-1.4.1/js/angular-animate.js"></script>
+</head>
+<body ng-controller="myCtr">
+    <div ui-view></div>
+</body>
+<!--在requirejs语法内启动app.js-->
+<script data-main="./skin/js/appModule.js" src="./skin/js/requirejs/require.js"></script>
+<script src="./skin/js/requireConfig.js"></script>
+</html>
